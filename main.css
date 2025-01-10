@@ -1,31 +1,42 @@
 :root {
   box-sizing: border-box;
   font-family: "Noto-sans", sans-serif;
+  --black100: #2e2e2e;
+  --padding-horizontal: 48px;
 }
 
 .body {
   margin: 0;
   padding: 0;
 }
+
 .container {
   width: 100%;
-  padding: 0px 48px;
+  padding: 0px var(--padding-horizontal);
   box-sizing: border-box;
 }
+@media (max-width: 375px) {
+  :root {
+    --padding-horizontal: 24px;
+  }
+}
+
 h3 {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
+  color: var(--black100);
 }
 p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   margin: 0 auto;
+  color: var(--black100);
 }
 h2 {
   font-weight: 500;
   font-size: 34px;
   line-height: 38px;
-  color: #2e2e2e;
+  color: var(--black100);
 }
