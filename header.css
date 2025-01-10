@@ -1,0 +1,31 @@
+header {
+  background-color: #e3f2fe;
+
+  border-bottom: 1px solid #2e2e2e1f;
+}
+.header_inner_first {
+  display: flex;
+  padding-top: 18.5px;
+  padding-bottom: 18.5px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 238px;
+}
+.header_inner {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 45px;
+}
+.header_logo {
+  width: 114px;
+  height: 35px;
+}
+.header_button {
+  width: 126px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: #ffffff;
+}

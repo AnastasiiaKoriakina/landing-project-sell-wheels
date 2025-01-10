@@ -1,0 +1,21 @@
+.block_advantage_title {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 38px;
+  text-align: center;
+  color: #2e2e2e;
+}
+.block_advantage_table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 24px;
+  width: 30%;
+  height: 100%;
+}
+.block_advantage_block {
+  border: 1px solid #c6deea;
+  padding: 24px 24px;
+  border-radius: 16px;
+}

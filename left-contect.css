@@ -1,0 +1,40 @@
+.left_contect {
+  background-image: url("image_building.png");
+  background-repeat: no-repeat;
+  background-color: #e3f2fe;
+  background-position: top 110px center;
+}
+.left_contect_name {
+  font-size: 42px;
+  line-height: 46px;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-weight: 500;
+}
+.left_contect_description {
+  margin: 0 auto;
+  padding-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2e2e;
+  padding-right: 652px;
+}
+.left_contect_form2 {
+  padding-top: 48px;
+  display: flex;
+  gap: 36px;
+}
+.left_contect_button {
+  top: 16px;
+  bottom: 16px;
+  left: 36px;
+  border-radius: 4px;
+  width: 205px;
+  height: 56px;
+  background-color: #263f63;
+  color: #ffffff;
+  border: none;
+  margin-top: 24px;
+  margin-bottom: 308px;
+}
