@@ -12,15 +12,19 @@ header {
   align-items: center;
   gap: 238px;
 }
-.header_inner {
+.header_logo {
+  width: 114px;
+  height: 35px;
+}
+.header_nav {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   gap: 45px;
 }
-.header_logo {
-  width: 114px;
-  height: 35px;
+.header_nav-link {
+  color: #181720;
+  text-decoration: none;
 }
 .header_button {
   width: 126px;
