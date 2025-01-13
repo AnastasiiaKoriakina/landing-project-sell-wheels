@@ -1,0 +1,13 @@
+:root {
+  --font-size-mini: 16px;
+  --line-height-mini: 24px;
+  --font-weight-mini: 400;
+
+  --font-size-h3: 24px;
+  --line-height-h3: 28px;
+  --font-weight-h3: 500;
+
+  --font-size-h2: 34px;
+  --line-height-h2: 38px;
+  --font-weight-h2: 500;
+}

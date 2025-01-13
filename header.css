@@ -1,6 +1,5 @@
 header {
   background-color: #e3f2fe;
-
   border-bottom: 1px solid #2e2e2e1f;
 }
 .header_inner_first {
@@ -25,6 +24,7 @@ header {
 .header_nav-link {
   color: #181720;
   text-decoration: none;
+  font-size: var(--font-size);
 }
 .header_button {
   width: 126px;

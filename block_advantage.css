@@ -6,15 +6,19 @@
   color: #2e2e2e;
 }
 .block_advantage_table {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
   gap: 24px;
-  width: 30%;
-  height: 100%;
+  padding-bottom: 48px;
+}
+.path_png {
+  height: 64px;
+  width: 72px;
 }
 .block_advantage_block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   border: 1px solid #c6deea;
   padding: 24px 24px;
   border-radius: 16px;
