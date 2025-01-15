@@ -1,17 +1,17 @@
-.left_contect {
+.header_form {
   background-image: url("image_building.png");
   background-repeat: no-repeat;
   background-color: #e3f2fe;
   background-position: top 110px center;
 }
-.left_contect_name {
+.header_form_name {
   font-size: 42px;
   line-height: 46px;
   margin: 0 auto;
   padding-top: 122px;
   font-weight: 500;
 }
-.left_contect_description {
+.header_form_description {
   margin: 0 auto;
   padding-top: 24px;
   font-weight: 400;
@@ -20,12 +20,12 @@
   color: #2e2e2e;
   padding-right: 652px;
 }
-.left_contect_form2 {
+.header_form_form2 {
   padding-top: 48px;
   display: flex;
   gap: 36px;
 }
-.left_contect_button {
+.header_form_button {
   top: 16px;
   bottom: 16px;
   left: 36px;

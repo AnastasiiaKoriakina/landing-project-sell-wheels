@@ -34,6 +34,9 @@
   :root {
     --padding-horizontal: 48px;
   }
+  .header_button_menu {
+    display: none;
+  }
 }
 @media (max-width: 1050px) {
   :root {
@@ -41,6 +44,15 @@
   }
   .header_nav {
     display: none;
-    width: auto;
+  }
+  .header_inner_first {
+    padding: 8.5px 24px;
+  }
+  .header_button {
+    display: none;
+  }
+  .header_button_menu {
+    width: 24px;
+    height: 24px;
   }
 }
