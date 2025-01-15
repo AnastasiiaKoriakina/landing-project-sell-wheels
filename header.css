@@ -1,15 +1,12 @@
-header {
-  background-color: #e3f2fe;
-  border-bottom: 1px solid #2e2e2e1f;
-}
 .header_inner_first {
   display: flex;
-  padding-top: 18.5px;
-  padding-bottom: 18.5px;
-  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  gap: 238px;
+  width: 100%;
+  position: fixed;
+  padding: 18.5px 48px;
+  background-color: #e3f2fe;
+  border-bottom: 1px solid #2e2e2e1f;
 }
 .header_logo {
   width: 114px;
@@ -32,4 +29,18 @@ header {
   border-radius: 4px;
   border: none;
   background-color: #ffffff;
+}
+@media (max-width: 1272px) {
+  :root {
+    --padding-horizontal: 48px;
+  }
+}
+@media (max-width: 1050px) {
+  :root {
+    --padding-horizontal: 24px;
+  }
+  .header_nav {
+    display: none;
+    width: auto;
+  }
 }
