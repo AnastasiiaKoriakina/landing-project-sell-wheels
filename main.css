@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 :root {
   box-sizing: border-box;
   font-family: system-ui, -apple-system, "Noto Sans", "Liberation Sans", Arial,
@@ -12,7 +15,8 @@
 }
 
 .container {
-  width: 100%;
+  max-width: 1272px;
+  margin: 0 auto;
   padding: 0px var(--padding-horizontal);
   box-sizing: border-box;
 }

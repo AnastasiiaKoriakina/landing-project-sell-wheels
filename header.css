@@ -1,9 +1,11 @@
+header {
+  position: fixed;
+  width: 100%;
+}
 .header_inner_first {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  position: fixed;
   padding: 18.5px 48px;
   background-color: #e3f2fe;
   border-bottom: 1px solid #2e2e2e1f;
@@ -30,12 +32,12 @@
   border: none;
   background-color: #ffffff;
 }
+.header_button_menu {
+  display: none;
+}
 @media (max-width: 1272px) {
   :root {
     --padding-horizontal: 48px;
-  }
-  .header_button_menu {
-    display: none;
   }
 }
 @media (max-width: 1050px) {
@@ -54,5 +56,8 @@
   .header_button_menu {
     width: 24px;
     height: 24px;
+  }
+  .header_button_menu {
+    display: block;
   }
 }
