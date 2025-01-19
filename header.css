@@ -40,7 +40,7 @@ header {
     --padding-horizontal: 48px;
   }
 }
-@media (max-width: 1050px) {
+@media (max-width: 1023px) {
   :root {
     --padding-horizontal: 24px;
   }
@@ -56,8 +56,8 @@ header {
   .header_button_menu {
     width: 24px;
     height: 24px;
-  }
-  .header_button_menu {
     display: block;
+    border: none;
+    background: url(menu.png);
   }
 }
