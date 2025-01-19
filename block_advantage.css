@@ -34,10 +34,4 @@
     display: flex;
     flex-flow: row nowrap;
   }
-  .block_advantage_block {
-    display: flex;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-  height: 100%;
-   
 }
