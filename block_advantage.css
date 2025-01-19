@@ -23,3 +23,21 @@
   padding: 24px 24px;
   border-radius: 16px;
 }
+@media (max-width: 1023px) {
+  .block_advantage_title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+  }
+  .block_advantage_table {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .block_advantage_block {
+    display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  height: 100%;
+   
+}
