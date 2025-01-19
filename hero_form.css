@@ -38,10 +38,16 @@
   margin-top: 24px;
   margin-bottom: 308px;
 }
+.hero_form_form2middle {
+  display: none;
+}
 
 @media (max-width: 1023px) {
   :root {
     --padding-horizontal: 24px;
+  }
+  .hero_form {
+    background-image: url(image_buildingmiddle.png);
   }
   .hero_form_name {
     padding-top: 84px;
@@ -60,5 +66,9 @@
   }
   .hero_form_form2 {
     display: none;
+  }
+  .hero_form_form2middle {
+    display: block;
+    padding-top: 24px;
   }
 }
