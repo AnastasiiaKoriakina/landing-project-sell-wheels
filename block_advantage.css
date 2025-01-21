@@ -1,15 +1,9 @@
-.block_advantage_title {
-  font-weight: 500;
-  font-size: 34px;
-  line-height: 38px;
-  text-align: center;
-  color: #2e2e2e;
-}
 .block_advantage_table {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
   gap: 24px;
   padding-bottom: 48px;
+  padding-top: 48px;
 }
 .block_advantage_h3 {
   padding-top: 104px;

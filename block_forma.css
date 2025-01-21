@@ -1,0 +1,25 @@
+.block_forma_tittle {
+  align-content: center;
+}
+input.switch {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  height: 24px;
+  width: 44px;
+  border-radius: 1em;
+  box-shadow: inset -1em 0px 0px 0px #263f63;
+  background-color: white;
+  border: 1px solid #263f63;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+input.switch:checked {
+  box-shadow: inset 1em 0px 0px 0px #263f63;
+  border: 1px solid #263f63;
+}
+.checkbox {
+}
