@@ -11,9 +11,17 @@
   gap: 24px;
   padding-bottom: 48px;
 }
-.path_png {
-  height: 64px;
-  width: 72px;
+.block_advantage_h3 {
+  padding-top: 104px;
+}
+.block_advantage_img1 {
+  position: absolute;
+}
+.block_advantage_img2 {
+  height: 28.5px;
+  width: 30px;
+  margin: 17px 21px 18.5px 21px;
+  position: absolute;
 }
 .block_advantage_block {
   display: flex;
