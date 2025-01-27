@@ -34,12 +34,14 @@
 .block_forma_menu1_price {
   display: flex;
   flex-direction: row;
+  align-self: start;
+  gap: 32px;
 }
 .block_forma_menu2 {
   display: flex;
   border-bottom: 1px solid #aac6d6;
   width: 100%;
-  justify-content: flex-start;
+  align-self: start;
   align-items: center;
   height: 56px;
 }
