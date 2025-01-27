@@ -37,7 +37,7 @@ p {
   font-weight: var(--font-weight-mini);
   font-size: var(--font-sizemini);
   line-height: var(--line-height-h3);
-  margin: 0 auto;
+  margin: 0;
   color: var(--black100);
 }
 h2 {
