@@ -3,3 +3,13 @@
   display: grid;
   place-items: center;
 }
+.block_forma__menu {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.block_forma_menu1 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
