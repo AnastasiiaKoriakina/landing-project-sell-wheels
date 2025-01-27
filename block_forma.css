@@ -6,7 +6,7 @@
 .block__forma_menu {
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  gap: 48px;
   padding-top: 48px;
   margin: 0 auto;
 }
@@ -31,9 +31,15 @@
   height: 56px;
   color: #2e2e2e;
 }
+.block_forma_menu1_price {
+  display: flex;
+  flex-direction: row;
+}
 .block_forma_menu2 {
+  display: flex;
   border-bottom: 1px solid #aac6d6;
-  width: 328px;
+  width: 100%;
+  justify-content: flex-start;
   align-items: center;
   height: 56px;
 }
