@@ -37,6 +37,8 @@
   align-self: start;
   gap: 32px;
   padding-bottom: 32px;
+  width: 776px;
+  border-bottom: 1px solid #aac6d6;
 }
 .block_forma_menu2 {
   display: flex;
@@ -52,4 +54,14 @@
   font-weight: 500;
   color: #2e2e2e;
   margin: 0 auto;
+}
+.block_forma_content_description {
+  padding-top: 24px;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(100%);
+}
+.block_forma_content {
+  background-color: #e3f2fe;
+  padding: 7px 16px 9px 16px;
 }
