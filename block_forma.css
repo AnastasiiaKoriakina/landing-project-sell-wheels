@@ -59,8 +59,7 @@
 .block_forma_content_description {
   display: grid;
   grid-template-columns: repeat(8, auto);
-  gap: 4px;
-  place-items: center;
+  grid-gap: 4px;
   padding-top: 24px;
 }
 .block_forma_content {
@@ -71,4 +70,5 @@
   line-height: 24px;
   border-radius: 4px;
   color: #2e2e2e;
+  width: max-content;
 }
