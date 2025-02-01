@@ -36,6 +36,7 @@
   flex-direction: row;
   align-self: start;
   gap: 32px;
+  padding-bottom: 32px;
 }
 .block_forma_menu2 {
   display: flex;
