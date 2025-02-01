@@ -44,7 +44,7 @@
   display: flex;
   border-bottom: 1px solid #aac6d6;
   width: 100%;
-  align-self: start;
+  align-self: flex-start;
   align-items: center;
   height: 56px;
 }
@@ -56,9 +56,10 @@
   margin: 0 auto;
 }
 .block_forma_content_description {
-  padding-top: 24px;
   display: grid;
+  grid-template-columns: repeat(8, auto);
   gap: 4px;
+  padding-top: 24px;
 }
 .block_forma_content {
   background-color: #e3f2fe;
