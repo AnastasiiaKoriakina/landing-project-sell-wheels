@@ -60,6 +60,7 @@
   display: grid;
   grid-template-columns: repeat(8, auto);
   gap: 4px;
+  place-items: center;
   padding-top: 24px;
 }
 .block_forma_content {
