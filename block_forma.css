@@ -13,13 +13,14 @@
 .block_forma_menu1 {
   display: flex;
   flex-direction: column;
+  width: 776px;
   gap: 32px;
 }
 .block_forma_buttons {
   display: flex;
   flex-direction: row;
   gap: 32px;
-  width: 776px;
+
   border-bottom: 1px solid #aac6d6;
 }
 .block_forma_button {
@@ -37,8 +38,8 @@
   align-self: start;
   gap: 32px;
   padding-bottom: 32px;
-  width: 776px;
   border-bottom: 1px solid #aac6d6;
+  width: 776px;
 }
 .block_forma_menu2 {
   display: flex;
