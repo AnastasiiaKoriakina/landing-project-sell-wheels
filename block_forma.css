@@ -59,9 +59,13 @@
   padding-top: 24px;
   display: grid;
   gap: 4px;
-  grid-template-columns: repeat(100%);
+  grid-template-columns: 100%;
 }
 .block_forma_content {
   background-color: #e3f2fe;
   padding: 7px 16px 9px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #2e2e2e;
 }
