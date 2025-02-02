@@ -43,11 +43,11 @@
 }
 .block_forma_menu2 {
   display: flex;
-  border-bottom: 1px solid #aac6d6;
   width: 100%;
   align-self: flex-start;
   align-items: center;
   height: 56px;
+  border-bottom: 1px solid #aac6d6;
 }
 .block__forma_title4 {
   line-height: 24px;
