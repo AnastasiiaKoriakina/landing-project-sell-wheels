@@ -1,17 +1,17 @@
-.hero_form {
+.bid {
   background-image: url("image_building.png");
   background-repeat: no-repeat;
   background-color: #e3f2fe;
   background-position: bottom center;
 }
-.hero_form_name {
+.bid-title {
   font-size: 42px;
   line-height: 46px;
   margin: 0 auto;
   padding-top: 122px;
   font-weight: 500;
 }
-.hero_form_description {
+.bid-description {
   margin: 0 auto;
   padding-top: 24px;
   font-weight: 400;
@@ -20,12 +20,19 @@
   color: #2e2e2e;
   padding-right: 652px;
 }
-.hero_form_form2 {
+.bid-forma-list {
+  margin: 0 auto;
   padding-top: 48px;
+  padding-left: 0;
   display: flex;
   gap: 36px;
 }
-.hero_form_button {
+
+li {
+  list-style-type: none;
+}
+
+.bid-button {
   top: 16px;
   bottom: 16px;
   left: 36px;
@@ -38,7 +45,7 @@
   margin-top: 24px;
   margin-bottom: 308px;
 }
-.hero_form_form2middle {
+.bid-forma-list-middle {
   display: none;
 }
 
@@ -46,17 +53,17 @@
   :root {
     --padding-horizontal: 24px;
   }
-  .hero_form {
+  .bid {
     background-image: url(image_buildingmiddle.png);
   }
-  .hero_form_name {
+  .bid-title {
     padding-top: 84px;
     font-size: 24px;
     line-height: 28px;
     font-weight: 700;
     color: #2e2e2e;
   }
-  .hero_form_description {
+  .bid-description {
     padding-top: 16px;
     font-weight: 400;
     font-size: 16px;
@@ -64,10 +71,10 @@
     color: #2e2e2e;
     padding-right: 24px;
   }
-  .hero_form_form2 {
+  .bid-forma-list {
     display: none;
   }
-  .hero_form_form2middle {
+  .bid-forma-list-middle {
     display: block;
     padding-top: 24px;
   }
