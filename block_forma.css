@@ -1,29 +1,32 @@
-.block__forma {
+.block-forma-switch {
   padding-top: 16px;
   display: flex;
   place-items: center;
 }
-.block__forma_menu {
+
+.block-forma-menu {
   display: flex;
   flex-direction: row;
   gap: 48px;
   padding-top: 48px;
   margin: 0 auto;
 }
-.block_forma_menu1 {
+
+.block-forma-menu1 {
   display: flex;
   flex-direction: column;
   gap: 32px;
   flex: 2 2 66%;
 }
-.block_forma_buttons {
+
+.block-forma-menu1-buttons {
   display: flex;
   flex-direction: row;
   gap: 32px;
-
   border-bottom: 1px solid #aac6d6;
 }
-.block_forma_button {
+
+.block-forma-menu1-button {
   border: 0;
   background: none;
   line-height: 24px;
@@ -35,10 +38,12 @@
   transition: all 0.3s;
   padding: 0px;
 }
-.block_forma_button:hover {
+
+.block-forma-menu1-button:hover {
   border-bottom: 3px solid black;
 }
-.block_forma_menu1_price {
+
+.block-forma-menu1-price {
   display: flex;
   flex-direction: row;
   align-self: start;
@@ -47,29 +52,27 @@
   border-bottom: 1px solid #aac6d6;
   width: inherit;
 }
-.block_forma_menu1_price_description {
+
+.block-forma-menu1-price-description {
   flex: 1 1 170px;
 }
-.block_forma_menu2 {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-start;
-  flex: 1 1 33%;
-}
-.block__forma_title4 {
+
+.block-forma-menu1-title4 {
   line-height: 24px;
   font-size: 20px;
   font-weight: 500;
   color: #2e2e2e;
   margin: 0;
 }
-.block_forma_content_description {
+
+.block-forma-menu1-content-description {
   display: flex;
   flex-wrap: wrap;
   grid-gap: 4px;
   padding-top: 24px;
 }
-.block_forma_content {
+
+.block-forma-menu1-content-name {
   background-color: #e3f2fe;
   padding: 7px 16px 9px 16px;
   font-size: 16px;
@@ -79,8 +82,16 @@
   color: #2e2e2e;
   width: max-content;
 }
-.block_forma_content1 {
+
+.block-forma-menu1-content-list {
   display: flex;
   flex-direction: row;
   gap: 32px;
+}
+
+.block-forma-menu2 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  flex: 1 1 33%;
 }
