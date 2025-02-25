@@ -1,26 +1,12 @@
-.block_advantage_table {
+.block-advantage-map {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
   gap: 24px;
   padding-bottom: 48px;
   padding-top: 48px;
 }
-.icon-wrapper {
-  position: relative;
-  width: 72px;
-  height: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.icon-wrapper_background {
-  position: absolute;
-  inset: 0;
-}
-.icon-wrapper_icon {
-  position: relative;
-}
-.block_advantage_block {
+
+.block-advantage-card {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -29,14 +15,31 @@
   border-radius: 16px;
   flex: 1 0 292px;
 }
+
+.block-advantage-card-icon {
+  position: relative;
+  width: 72px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block-advantage-card-icon-background {
+  position: absolute;
+  inset: 0;
+}
+.block-advantage-card-icon-home {
+  position: relative;
+}
+
 @media (max-width: 1023px) {
-  .block_advantage_title {
+  .block-advantage-title {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
     align-items: center;
   }
-  .block_advantage_table {
+  .block-advantage-map {
     display: flex;
     justify-content: space-between;
     width: 100%;
