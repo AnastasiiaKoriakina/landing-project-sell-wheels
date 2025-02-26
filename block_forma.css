@@ -251,3 +251,37 @@
   position: relative;
   height: 275px;
 }
+
+@media (max-width: 1920px) {
+  .block-forma-img1023 {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .block-forma-title {
+    background-color: #aac6d6;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .block-forma-img1023 {
+    display: flex;
+    justify-content: center;
+    background-color: #aac6d6;
+  }
+
+  .block-forma-img-man {
+    align-content: center;
+    padding: 16px 211px 0px 211px;
+  }
+
+  .block-forma-switch {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border: 1px solid #aac6d6;
+    padding: 16px 24px;
+    margin: 24px 0px;
+  }
+}
