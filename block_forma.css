@@ -17,6 +17,7 @@
   flex-direction: column;
   gap: 32px;
   flex: 2 2 66%;
+  padding-bottom: 76px;
 }
 
 .block-forma-menu1-buttons {
@@ -96,8 +97,63 @@
   flex: 1 1 33%;
 }
 
-.block-forma-menu1-title4 {
+.block-forma-menu2-title4 {
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2e2e2e;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: 0;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #aac6d6;
+}
+
+.block-forma-menu2-contant {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.block-forma-menu2-contact-description-price {
+  padding-top: 32px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.block-forma-menu2-contact-description-percent {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.forma-bid-button {
+  top: 16px;
+  bottom: 16px;
+  left: 36px;
+  border-radius: 4px;
+  width: 205px;
+  height: 56px;
+  background-color: #263f63;
+  color: #ffffff;
+  border: none;
+  margin-top: 24px;
+  margin-bottom: 27px;
+}
+
+.block-forma-img-back {
+  z-index: -1;
+  position: absolute;
+  float: right;
+}
+
+.block-forma-img {
+  margin: ;
+  width: 309px;
+  height: 275px;
+  float: right;
+  z-index: 0;
+  position: relative;
 }
