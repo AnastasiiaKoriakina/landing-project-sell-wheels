@@ -269,6 +269,10 @@
   .block-forma-menu1-content-description-middle {
     display: none;
   }
+
+  .block-forma-menu2-middle {
+    display: none;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -300,6 +304,10 @@
     margin: 24px 0px;
   }
 
+  .block-forma-menu1 {
+    padding-bottom: 0px;
+  }
+
   .block-forma-menu {
     padding: 0px;
     flex-direction: column;
@@ -326,6 +334,13 @@
     gap: 8px;
   }
 
+  .block-forma-menu1-title4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+
   .block-forma-menu1-content-description {
     display: none;
   }
@@ -338,5 +353,50 @@
     overflow-x: auto;
     padding-top: 16px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #aac6d6;
+  }
+
+  .block-forma-menu1-content-list {
+    display: none;
+  }
+
+  .block_forma_title_income {
+    display: none;
+  }
+
+  .block-forma-menu2 {
+    display: none;
+  }
+
+  .block-forma-menu2-contant {
+    display: none;
+  }
+
+  .block-forma-menu2-middle {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block-forma-menu2-contact-description-middle {
+    display: flex;
+    padding-top: 26px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .block-forma-menu2-contact-description-price {
+    padding: 0px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .block-forma-img {
+    display: none;
   }
 }
