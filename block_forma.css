@@ -143,16 +143,22 @@
   margin-bottom: 27px;
 }
 
+.block-forma-img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 309px;
+  height: 275px;
+}
+
 .block-forma-img-back {
   z-index: -1;
   position: absolute;
   float: right;
 }
 
-.block-forma-img {
-  margin: ;
-  width: 309px;
-  height: 275px;
+.block-forma-img-first {
   float: right;
   z-index: 0;
   position: relative;
