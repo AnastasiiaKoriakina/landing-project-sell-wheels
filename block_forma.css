@@ -148,18 +148,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 309px;
-  height: 275px;
 }
 
 .block-forma-img-back {
   z-index: -1;
   position: absolute;
   float: right;
+  width: 311.2285963300115px;
 }
 
 .block-forma-img-first {
   float: right;
   z-index: 0;
   position: relative;
+  height: 275px;
 }
