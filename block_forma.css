@@ -253,26 +253,24 @@
   height: 275px;
 }
 
-@media (max-width: 1920px) {
-  .block-forma-img1023 {
-    display: none;
-  }
+.block-forma-img1023 {
+  display: none;
+}
 
-  .block-forma-description-p-1023 {
-    display: none;
-  }
+.block-forma-description-p-1023 {
+  display: none;
+}
 
-  .block-forma-menu1-price-middle {
-    display: none;
-  }
+.block-forma-menu1-price-middle {
+  display: none;
+}
 
-  .block-forma-menu1-content-description-middle {
-    display: none;
-  }
+.block-forma-menu1-content-description-middle {
+  display: none;
+}
 
-  .block-forma-menu2-middle {
-    display: none;
-  }
+.block-forma-menu2-middle {
+  display: none;
 }
 
 @media (max-width: 1023px) {
