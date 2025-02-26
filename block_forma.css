@@ -261,6 +261,14 @@
   .block-forma-description-p-1023 {
     display: none;
   }
+
+  .block-forma-menu1-price-middle {
+    display: none;
+  }
+
+  .block-forma-menu1-content-description-middle {
+    display: none;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -280,12 +288,14 @@
   .block-forma-img-man {
     align-content: center;
     padding: 16px 211px 0px 211px;
+    fill: #aac6d6;
+    stroke: #aac6d6;
   }
 
   .block-forma-switch {
     justify-content: space-between;
     flex-direction: row-reverse;
-    border: 1px solid #aac6d6;
+    border: #aac6d6;
     padding: 16px 24px;
     margin: 24px 0px;
   }
@@ -302,5 +312,31 @@
 
   .block-forma-description-p-1023 {
     display: contents;
+  }
+
+  .block-forma-menu1-price {
+    display: none;
+  }
+
+  .block-forma-menu1-price-midle {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .block-forma-menu1-content-description {
+    display: none;
+  }
+
+  .block-forma-menu1-content-description-middle {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    width: 100%;
+    overflow-x: auto;
+    padding-top: 16px;
+    padding-bottom: 24px;
   }
 }
