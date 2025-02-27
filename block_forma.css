@@ -336,10 +336,9 @@
 
   .block-forma-menu1-content-description-middle {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 4px;
     width: 100%;
-    overflow-x: auto;
     padding-top: 16px;
     padding-bottom: 24px;
     border-bottom: 1px solid #aac6d6;
