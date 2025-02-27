@@ -300,6 +300,7 @@
     padding: 0px;
     flex-direction: column;
     gap: 24px;
+    background-image: none;
   }
 
   .block-forma-description-p {
