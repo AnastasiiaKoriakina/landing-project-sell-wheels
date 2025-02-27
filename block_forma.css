@@ -263,6 +263,10 @@
   display: none;
 }
 
+.forma-bid-button-middle {
+  display: none;
+}
+
 @media (max-width: 1023px) {
   .block-forma-title {
     background-color: #aac6d6;
@@ -386,5 +390,32 @@
 
   .block-forma-img {
     display: none;
+  }
+
+  .forma-bid-button-middle {
+    display: block;
+    border-radius: 4px;
+    max-width: 975px;
+    height: 40px;
+    background-color: #263f63;
+    color: #ffffff;
+    border: none;
+    margin-top: 18px;
+  }
+
+  .block-forma-menu1-content-list-middle {
+    color: #263f63;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .block-forma-menu1-content-list-button-middle {
+    border: 0;
+    background-color: white;
   }
 }
