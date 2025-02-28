@@ -1,9 +1,10 @@
 .bid {
-  background-image: url("image_building.png");
+  background-image: url("/landing-project-wheels/image_building.png");
   background-repeat: no-repeat;
   background-color: #e3f2fe;
   background-position: bottom center;
 }
+
 .bid-title {
   font-size: 42px;
   line-height: 46px;
@@ -11,6 +12,7 @@
   padding-top: 122px;
   font-weight: 500;
 }
+
 .bid-description {
   margin: 0 auto;
   padding-top: 24px;
@@ -20,6 +22,7 @@
   color: #2e2e2e;
   padding-right: 652px;
 }
+
 .bid-forma-list {
   margin: 0 auto;
   padding-top: 48px;
@@ -54,7 +57,7 @@ li {
     --padding-horizontal: 24px;
   }
   .bid {
-    background-image: url(image_buildingmiddle.png);
+    background-image: url(/landing-project-wheels/image_buildingmiddle.png);
   }
   .bid-title {
     padding-top: 84px;
