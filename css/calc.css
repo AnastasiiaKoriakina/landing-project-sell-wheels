@@ -1,0 +1,119 @@
+.calc-forma-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  padding-top: 48px;
+  margin: 0 auto;
+}
+
+.calc-forma-menu1 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex: 2 2 66%;
+  padding-bottom: 76px;
+}
+
+.calc-forma-swipe-tabs {
+  display: flex;
+}
+
+.calc-forma-slider-price-block {
+  max-width: 360px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.calc-forma-edit {
+  margin: 0;
+  display: flex;
+  gap: 8px;
+}
+
+.calc-forma-edit-title4 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.calc-slider {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.calc-slider-price {
+  padding-top: 16px;
+  max-width: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-title {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  max-width: 114px;
+  flex: 1 1 114px;
+}
+
+@media (max-width: 1023px) {
+  .calc .block-forma-title {
+    background-color: #ffffff;
+  }
+
+  .calc-forma-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .calc-forma-menu1 {
+    gap: 24px;
+    padding-bottom: 0;
+    border-bottom: 1px solid #aac6d6;
+  }
+
+  .calc-forma-swipe-tabs {
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .calc-forma-menu .block-forma-menu2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    flex: auto;
+  }
+
+  .calc-forma-menu .block-forma-title-income {
+    display: block;
+  }
+
+  .calc-forma-menu .block-forma-menu2-title4 {
+    display: none;
+  }
+
+  .calc-forma-menu .block-forma-menu2-contant {
+    display: flex;
+    gap: auto;
+  }
+
+  .calc-forma-menu .block-forma-menu2-contact-description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  .calc-forma-menu .forma-bid-button {
+    height: 40px;
+    max-width: 975px;
+  }
+}

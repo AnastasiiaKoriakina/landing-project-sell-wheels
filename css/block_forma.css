@@ -282,6 +282,7 @@
   }
 
   .block-forma-img-man {
+    width: 100%;
     align-content: center;
   }
 
@@ -411,7 +412,7 @@
     justify-content: space-between;
   }
 
-  .block-forma-menu1-content-list-button-middle {
+  .block-forma-menu1-content-list-a-middle {
     border: 0;
     background-color: white;
   }
