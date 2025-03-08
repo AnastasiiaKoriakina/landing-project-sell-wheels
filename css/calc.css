@@ -17,7 +17,7 @@
 .calc-forma-swipe-tabs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 56px;
+  gap: 48px;
 }
 
 .calc-forma-edit {
@@ -33,20 +33,21 @@
   line-height: 24px;
 }
 
+.calc-forma-slider-price-input {
+  height: 2px;
+  width: 100%;
+}
+
 .calc-slider {
+  padding: 0px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   gap: 16px;
 }
 
-.calc-slider-price {
-  padding-top: 16px;
-  max-width: 360px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.price-title {
+.price-title1,
+.price-title2,
+.price-title3 {
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;
@@ -54,10 +55,30 @@
   flex: 1 1 114px;
 }
 
+.price-title2 {
+  display: flex;
+  justify-content: center;
+}
+
+.price-title3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.calc .block-forma-menu2-contant {
+  gap: 0px;
+}
+
 @media (max-width: 1023px) {
   .calc-forma-all {
     display: block;
     background-color: #c6deea;
+    padding: 7px 16px 0px 16px;
+    border-radius: 4px;
+  }
+
+  .calc .calc-forma-menu {
+    gap: 26px;
   }
 
   .calc .block-forma-title {
@@ -114,5 +135,9 @@
   .calc-forma-menu .forma-bid-button {
     height: 40px;
     max-width: 975px;
+  }
+
+  .price-title2 {
+    display: none;
   }
 }

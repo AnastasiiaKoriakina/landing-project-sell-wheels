@@ -1,0 +1,32 @@
+.map {
+  background-image: url(/landing-project-wheels/map.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #aac6d6;
+}
+
+.map-table {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: grid;
+  justify-content: end;
+  grid-template-columns: repeat(2, 276px);
+  gap: 24px;
+}
+
+.map-table-form {
+  padding: 24px;
+  background-color: #ffffffd6;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  gap: 2px;
+}
+
+.map-table-form .block-forma-title {
+  padding-top: 0px;
+}
+
+.map-table-form .map-table-form-title-p {
+  text-align: center;
+}
