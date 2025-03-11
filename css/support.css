@@ -55,10 +55,11 @@
   }
 
   .support-description-img-middle {
-    width: 100%;
-    display: flex;
+    max-width: 100%;
     margin: 0 auto;
-    align-items: center;
+    object-fit: cover;
+    height: 250px;
+    display: block;
   }
 
   .support-description-middle {
