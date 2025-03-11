@@ -10,24 +10,22 @@
 .steps {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-}
-
-.grid-template-areas:
+  grid-template-areas:
     "steps-number-title steps-number-line "
     "steps-description";
 }
 
 .item1 {
-    grid-area: steps-number-title;
-  }
-  
-  .item2 {
-    grid-area: steps-number-line;
-  }
-  
-  .item3 {
-    grid-area: steps-description;
-  }
+  grid-area: steps-number-title;
+}
+
+.item2 {
+  grid-area: steps-number-line;
+}
+
+.item3 {
+  grid-area: steps-description;
+}
 
 .steps-number-line {
   height: 1px;
