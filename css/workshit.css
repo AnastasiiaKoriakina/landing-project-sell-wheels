@@ -1,0 +1,19 @@
+.workshit-title {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 38px;
+  align-items: center;
+  color: #2e2e2e;
+  padding-top: 48px;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.steps-number-line {
+  height: 1px;
+  width: 100%;
+  border: 1px solid;
+}
