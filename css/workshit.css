@@ -8,11 +8,31 @@
 }
 
 .steps {
+  padding-top: 24px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
     "steps-number-title steps-number-line "
     "steps-description";
+}
+
+.steps-number {
+  max-width: 392px;
+}
+
+.steps-part {
+  display: flex;
+  align-items: center;
+}
+
+.steps-number-title {
+  padding: 0px;
+  background: url(/landing-project-wheels/Path_bac.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 64px;
+  min-width: 72px;
+  align-content: center;
 }
 
 .item1 {
@@ -30,5 +50,12 @@
 .steps-number-line {
   height: 1px;
   width: 100%;
-  border: 1px solid;
+  border: 1px solid #aac6d6;
+}
+
+.steps-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
 }
