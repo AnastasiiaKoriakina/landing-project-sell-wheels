@@ -12,8 +12,20 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    "steps-number-title steps-number-line "
-    "steps-description";
+    "steps-number-line steps-number-title steps-number-line "
+    "steps-description steps-description steps-description";
+}
+
+.item1 {
+  grid-area: steps-number-title;
+}
+
+.item2 {
+  grid-area: steps-number-line;
+}
+
+.item3 {
+  grid-area: steps-description;
 }
 
 .steps-number {
@@ -35,18 +47,6 @@
   align-content: center;
 }
 
-.item1 {
-  grid-area: steps-number-title;
-}
-
-.item2 {
-  grid-area: steps-number-line;
-}
-
-.item3 {
-  grid-area: steps-description;
-}
-
 .steps-number-line {
   height: 1px;
   width: 100%;
@@ -58,4 +58,8 @@
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+}
+
+.request {
+  padding: 28px 248px 96px 248px;
 }
