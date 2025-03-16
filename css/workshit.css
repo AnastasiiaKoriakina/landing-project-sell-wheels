@@ -61,5 +61,115 @@
 }
 
 .request {
-  padding: 28px 248px 96px 248px;
+  margin: 28px 248px 96px 248px;
+  box-shadow: 1px 2px 16px rgba(0, 0, 0, 0.2);
+  border-top: 4px solid #aac6d6;
+}
+
+.request-personal-data {
+  padding: 56px 100px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.request-title {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.legal-entity {
+  background-color: #c6deea;
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+.inn {
+  background-color: #c6deea;
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+.name {
+  background-color: #c6deea;
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+.phone-email {
+  display: grid;
+  grid-template-columns: repeat(2, 276px);
+  gap: 24px;
+}
+
+.phone {
+  background-color: #c6deea;
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+.email {
+  background-color: #c6deea;
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+.request-checkbox {
+  border: 1px solid;
+}
+
+.tire {
+  background-color: #c6deea;
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+.request-adress {
+  padding: 32px 100px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.city {
+  background-color: #c6deea;
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+.adress {
+  background-color: #c6deea;
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+.request-button-form {
+  padding: 32px 100px 56px 100px;
+}
+
+.conditions {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.request-button-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.forma-bid-button {
+  width: 100%;
 }
