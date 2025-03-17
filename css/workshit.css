@@ -11,25 +11,17 @@
   padding-top: 24px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-    "steps-number-line steps-number-title steps-number-line "
-    "steps-description steps-description steps-description";
-}
-
-.item1 {
-  grid-area: steps-number-title;
-}
-
-.item2 {
-  grid-area: steps-number-line;
-}
-
-.item3 {
-  grid-area: steps-description;
 }
 
 .steps-number {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-areas:
+    "steps-number-line-left steps-number-title steps-number-line-right"
+    "steps-description steps-description steps-description";
   max-width: 392px;
+  align-items: center;
+  gap: 24px;
 }
 
 .steps-part {
@@ -45,15 +37,30 @@
   height: 64px;
   min-width: 72px;
   align-content: center;
+  grid-area: steps-number-title;
 }
 
-.steps-number-line {
+.steps-number-line-right {
+  grid-area: steps-number-line-right;
   height: 1px;
   width: 100%;
   border: 1px solid #aac6d6;
 }
 
+.steps-number-line-left {
+  grid-area: steps-number-line-left;
+  height: 1px;
+  width: 100%;
+  border: 1px solid #aac6d6;
+}
+
+.steps-number:first-child .steps-number-line-left,
+.steps-number:last-child .steps-number-line-right {
+  display: none;
+}
+
 .steps-description {
+  grid-area: steps-description;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -61,9 +68,10 @@
 }
 
 .request {
-  margin: 28px 248px 96px 248px;
+  margin: 28px auto 96px;
   box-shadow: 1px 2px 16px rgba(0, 0, 0, 0.2);
   border-top: 4px solid #aac6d6;
+  max-width: 776px;
 }
 
 .request-personal-data {
@@ -87,6 +95,10 @@
   border: none;
 }
 
+.legal-entity:invalid {
+  background: #ffebee;
+}
+
 .inn {
   background-color: #c6deea;
   padding: 16px;
@@ -103,7 +115,7 @@
 
 .phone-email {
   display: grid;
-  grid-template-columns: repeat(2, 276px);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
 
@@ -162,6 +174,13 @@
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;
+}
+
+.request-checkbox {
+  padding: 16px;
+  border: 1px solid #aac6d6;
+  border-radius: 8px;
+  color: #2e2e2ea3;
 }
 
 .request-button-form {

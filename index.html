@@ -557,43 +557,41 @@
       <div class="container">
         <div class="steps">
           <div class="steps-number">
-            <div class="steps-part">
-              <h2 class="steps-number-title">1</h2>
-              <div class="steps-number-line"></div>
-            </div>
+            <div class="steps-number-line-left"></div>
+            <h2 class="steps-number-title">1</h2>
+            <div class="steps-number-line-right"></div>
             <p class="steps-description">
               Заполните анкету<br />
               и дождитесь согласования
             </p>
           </div>
           <div class="steps-number">
-            <div class="steps-part">
-              <h2 class="steps-number-title">2</h2>
-              <div class="steps-number-line"></div>
-            </div>
+            <div class="steps-number-line-left"></div>
+            <h2 class="steps-number-title">2</h2>
+            <div class="steps-number-line-right"></div>
             <p class="steps-description">
               Подпишите необходимые<br />
               документы
             </p>
           </div>
           <div class="steps-number">
-            <div class="steps-part">
-              <h2 class="steps-number-title">3</h2>
-              <div class="steps-number-line"></div>
-            </div>
+            <div class="steps-number-line-left"></div>
+            <h2 class="steps-number-title">3</h2>
+            <div class="steps-number-line-right"></div>
             <p class="steps-description">
               Сделайте ремонт<br />
               и откройте свой бизнес
             </p>
           </div>
         </div>
-        <section class="request">
+        <form class="request">
           <div class="request-personal-data">
             <h4 class="request-title">Заполните заявку за 1 минуту</h4>
             <input
               type="text"
               class="legal-entity"
               placeholder="Юридическое лицо"
+              required="Юридическое лицо 1"
             />
             <input type="text" class="inn" placeholder="ИНН" />
             <input type="text" class="name" placeholder="Ваше имя" />
@@ -604,16 +602,15 @@
                 placeholder="Мобильный телефон"
               />
               <input
-                type="text"
+                type="email"
                 class="email"
                 placeholder="Электронная почта"
               />
             </div>
-            <input
-              type="checkbox"
-              class="request-checkbox"
-              placeholder="У меня есть свой бизнес"
-            />
+            <label class="request-checkbox">
+              <input type="checkbox" />
+              У меня есть свой бизнес
+            </label>
             <input
               class="tire"
               name="tire center"
@@ -634,9 +631,11 @@
             <h5 class="conditions">
               Заполняя форму, я принимаю условия передачи информации
             </h5>
-            <button class="forma-bid-button">Оставить заявку</button>
+            <button type="submit" class="forma-bid-button">
+              Оставить заявку
+            </button>
           </div>
-        </section>
+        </form>
       </div>
     </section>
     <!--block_workshit-->
