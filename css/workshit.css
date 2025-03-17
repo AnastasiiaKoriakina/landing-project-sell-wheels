@@ -227,4 +227,34 @@
 }
 
 @media (max-width: 1023px) {
+  .workshit-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 32px;
+  }
+
+  .steps {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+  }
+
+  .steps-number {
+    display: flex;
+  }
+
+  .steps-number-line-right {
+    display: none;
+  }
+
+  .steps-number-title {
+    height: 46px;
+    background-image: url(/landing-project-wheels/_Path_1023.png);
+    font-size: 20px;
+  }
+
+  .steps-number-line-left {
+    display: none;
+  }
 }
