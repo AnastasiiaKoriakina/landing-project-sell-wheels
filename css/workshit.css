@@ -106,11 +106,19 @@
   border: none;
 }
 
+.inn:invalid {
+  background: #ffebee;
+}
+
 .name {
   background-color: #c6deea;
   padding: 16px;
   border-radius: 4px;
   border: none;
+}
+
+.name:invalid {
+  background: #ffebee;
 }
 
 .phone-email {
@@ -126,11 +134,19 @@
   border: none;
 }
 
+.phone:invalid {
+  background: #ffebee;
+}
+
 .email {
   background-color: #c6deea;
   padding: 16px;
   border-radius: 4px;
   border: none;
+}
+
+.email:invalid {
+  background: #ffebee;
 }
 
 .request-checkbox {
@@ -158,11 +174,19 @@
   border: none;
 }
 
+.city:invalid {
+  background: #ffebee;
+}
+
 .adress {
   background-color: #c6deea;
   padding: 16px;
   border-radius: 4px;
   border: none;
+}
+
+.adress:invalid {
+  background: #ffebee;
 }
 
 .request-button-form {
@@ -189,6 +213,18 @@
   gap: 24px;
 }
 
+.conditions {
+  color: #2e2e2ea3;
+}
+
+.conditions_link {
+  text-decoration: none;
+  color: #263f63;
+}
+
 .forma-bid-button {
   width: 100%;
+}
+
+@media (max-width: 1023px) {
 }

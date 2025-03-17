@@ -591,20 +591,27 @@
               type="text"
               class="legal-entity"
               placeholder="Юридическое лицо"
-              required="Юридическое лицо 1"
+              required="Юридическое лицо"
             />
-            <input type="text" class="inn" placeholder="ИНН" />
-            <input type="text" class="name" placeholder="Ваше имя" />
+            <input type="text" class="inn" placeholder="ИНН" required="ИНН" />
+            <input
+              type="text"
+              class="name"
+              placeholder="Ваше имя"
+              required="Ваше имя"
+            />
             <div class="phone-email">
               <input
-                type="text"
+                type="tel"
                 class="phone"
                 placeholder="Мобильный телефон"
+                required="Мобильный телефон"
               />
               <input
                 type="email"
                 class="email"
                 placeholder="Электронная почта"
+                required="Электронная почта"
               />
             </div>
             <label class="request-checkbox">
@@ -624,12 +631,25 @@
           </div>
           <div class="request-adress">
             <h4 class="request-title">Укажите адрес планируемого магазина</h4>
-            <input type="text" class="city" placeholder="Город" />
-            <input type="text" class="adress" placeholder="Адрес помещения" />
+            <input
+              type="text"
+              class="city"
+              placeholder="Город"
+              required="Город"
+            />
+            <input
+              type="text"
+              class="adress"
+              placeholder="Адрес помещения"
+              required="Адрес помещения"
+            />
           </div>
           <div class="request-button-form">
             <h5 class="conditions">
-              Заполняя форму, я принимаю условия передачи информации
+              Заполняя форму, я принимаю
+              <a class="conditions_link" href="https://www.google.com/"
+                >условия передачи информации</a
+              >
             </h5>
             <button type="submit" class="forma-bid-button">
               Оставить заявку
