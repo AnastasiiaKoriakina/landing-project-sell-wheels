@@ -261,6 +261,8 @@
   .request {
     box-shadow: none;
     max-width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 32px;
   }
 
   .request-personal-data {
@@ -279,7 +281,6 @@
   }
 
   .forma-bid-button {
-    margin: 0px;
     max-width: 100%;
   }
 }
