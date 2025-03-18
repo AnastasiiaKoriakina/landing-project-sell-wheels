@@ -257,4 +257,29 @@
   .steps-number-line-left {
     display: none;
   }
+
+  .request {
+    box-shadow: none;
+    max-width: 100%;
+  }
+
+  .request-personal-data {
+    padding: 24px 0px 0px 0px;
+  }
+
+  .request-adress {
+    padding: 24px 0px 24px 0px;
+  }
+
+  .request-button-form {
+    padding: 0px;
+    flex-direction: column-reverse;
+    align-items: normal;
+    gap: 16px;
+  }
+
+  .forma-bid-button {
+    margin: 0px;
+    max-width: 100%;
+  }
 }
