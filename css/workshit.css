@@ -67,6 +67,10 @@
   text-align: center;
 }
 
+.steps-description767 {
+  display: none;
+}
+
 .request {
   margin: 28px auto 96px;
   box-shadow: 1px 2px 16px rgba(0, 0, 0, 0.2);
@@ -270,17 +274,36 @@
   }
 
   .request-adress {
-    padding: 24px 0px 24px 0px;
+    padding: 24px 0px 0px 0px;
   }
 
   .request-button-form {
     padding: 0px;
     flex-direction: column-reverse;
     align-items: normal;
-    gap: 16px;
+    gap: 0px;
   }
 
   .forma-bid-button {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .steps {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .steps-number {
+    max-width: 100%;
+  }
+
+  .steps-description {
+    display: none;
+  }
+
+  .steps-description767 {
+    display: block;
   }
 }
