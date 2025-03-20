@@ -1,0 +1,93 @@
+.footer_contacts_telephone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-telphone {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.telephone1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.telephone2 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.ref {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 32px;
+}
+
+.ref-forma {
+  display: flex;
+  gap: 32px;
+}
+
+.franchise {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #263f63;
+  text-decoration: none;
+}
+
+.ref-email {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #263f63;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 32px;
+  align-items: center;
+}
+
+.footer-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2e2ea3;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+@media (max-width: 1023px) {
+  .footer_contacts_telephone {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+
+  .ref {
+    flex-direction: column-reverse;
+    padding-top: 8px;
+    gap: 16px;
+    padding-bottom: 24px;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    align-items: start;
+    gap: 16px;
+  }
+}

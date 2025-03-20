@@ -264,9 +264,11 @@
 
   .request {
     box-shadow: none;
-    max-width: 100%;
+    max-width: 100vw;
     margin-bottom: 0px;
     padding-bottom: 32px;
+    margin-inline: calc(var(--padding-horizontal) * -1);
+    padding-inline: var(--padding-horizontal);
   }
 
   .request-personal-data {
@@ -301,6 +303,10 @@
 
   .steps-description {
     display: none;
+  }
+
+  .phone-email {
+    grid-template-columns: 1fr;
   }
 
   .steps-description767 {
